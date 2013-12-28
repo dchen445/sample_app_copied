@@ -30,6 +30,14 @@ gem 'jquery-rails', '2.2.1'
 gem 'turbolinks', '1.0.0'
 gem 'jbuilder', '1.0.1'
 
-group :production do
+
+group :production, :staging do
+  gem 'pg' 
+  gem 'rails_12factor'
+end
+
+=begin
+group :production, do
   gem 'pg', '0.14.1'
 end
+=end
