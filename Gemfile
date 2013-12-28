@@ -6,7 +6,7 @@ gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '2.13.0'
+  gem 'rspec-rails', '2.13.0'#'2.13.0'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', github: 'railstutorial/spork-rails', branch: 'rails-4'
   gem 'guard-spork', '1.5.0'
@@ -16,6 +16,7 @@ group :test do
   gem 'capybara', github: 'jnicklas/capybara'
   gem 'rb-fsevent', '0.9.3', :require => false
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails','4.2.1'
   # gem 'launchy', '2.2.0'
 end
 
